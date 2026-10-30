@@ -1,0 +1,27 @@
+{
+  "name": "sakhi-vani-mobile-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SAKHI VANI mobile-first client (React + Vite + Tailwind). Installable as a PWA on Android and wrapped by android-app (Expo) for APK builds.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "lucide-react": "^1.65.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vite": "^7.0.0"
+  }
+}

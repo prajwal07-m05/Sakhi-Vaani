@@ -1,0 +1,10 @@
+{
+  "description": "Connects ASHA workers and citizens with beneficiary records, voice-based visit documentation, health scheme guidance, eligibility checks, reminders, and assistance requests.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

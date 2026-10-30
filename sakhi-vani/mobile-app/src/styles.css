@@ -1,0 +1,22 @@
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans Kannada', 'Noto Sans Devanagari', ui-sans-serif, system-ui, sans-serif;
+  --color-leaf: #0f7a5a;
+  --color-leaf-deep: #0b5e45;
+  --color-leaf-soft: #e2f1e9;
+  --color-navy: #13294b;
+  --color-paper: #f6f3ec;
+  --color-ink: #1b2433;
+  --color-line: #e5dfd2;
+  --color-mist: #4a6c9b;
+  --color-mist-soft: #e6ecf5;
+  --color-sun: #e9b44c;
+  --color-sun-soft: #fbf0d9;
+  --color-rose: #b4423a;
+  --color-rose-soft: #f8e4e1;
+}
+
+@layer base {
+  html, body, #root { height: 100%; }
+  body { background: #e9e4d8; -webkit-font-smoothing: antialiased; }
+  summary::-webkit-details-marker { display: none; }
+}

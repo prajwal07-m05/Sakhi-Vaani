@@ -1,0 +1,24 @@
+{
+  "name": "sakhi-vani-android",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "description": "Expo (React Native) Android shell that hosts the SAKHI VANI mobile client in a WebView with microphone permission. Versions must be aligned with `npx expo install --fix` before building.",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "build:apk": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-webview": "13.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "typescript": "^5.3.3",
+    "@types/react": "~18.3.12"
+  }
+}

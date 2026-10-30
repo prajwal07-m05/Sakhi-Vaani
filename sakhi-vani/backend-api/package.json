@@ -1,0 +1,23 @@
+{
+  "name": "sakhi-vani-backend-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SAKHI VANI REST API (Express + TypeScript). Runs the shared domain service with server-side authorisation.",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

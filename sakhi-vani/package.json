@@ -1,0 +1,21 @@
+{
+  "name": "sakhi-vani",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SAKHI VANI \u2014 multilingual, voice-first community healthcare assistance platform connecting ASHA workers and citizens.",
+  "scripts": {
+    "install:all": "npm install && npm --prefix backend-api install && npm --prefix mobile-app install",
+    "dev:backend": "npm --prefix backend-api run dev",
+    "dev:mobile": "npm --prefix mobile-app run dev",
+    "test": "tsx --test tests/core.test.ts tests/eligibility.test.ts tests/calling.test.ts tests/backend.test.ts",
+    "typecheck": "npm --prefix backend-api run typecheck && npm --prefix mobile-app run typecheck"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
