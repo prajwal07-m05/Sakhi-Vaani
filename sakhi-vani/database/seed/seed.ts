@@ -10,7 +10,7 @@ export function buildSeed(now: Date, hashPassword: (pw: string) => string): Data
   const today = isoDate(now)
   const ts = now.toISOString()
   const ASHA = 'USR-ASHA-001'
-  const  = 'USR-CIT-001'
+  const CIT = 'USR-CIT-001'
   const AREA = 'AREA-DV-01'
   const OTHER_AREA = 'AREA-OV-01'
 
