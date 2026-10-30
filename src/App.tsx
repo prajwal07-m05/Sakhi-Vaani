@@ -2,6 +2,6 @@
 // This preview entry simply renders it.
 import SakhiVaniApp from '../sakhi-vani/mobile-app/src/App'
 
- default function App() {
+ exportdefault function App() {
   return <SakhiVaniApp />
 }
