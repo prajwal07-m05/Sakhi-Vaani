@@ -10,7 +10,7 @@ export interface FieldDef {
   nature: FieldNature
   options?: string[]
   help?: string
-  required?: boolean
+  required?: 
   /** only show for these beneficiary categories */
   onlyFor?: BeneficiaryCategory[]
 }
