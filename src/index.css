@@ -2,4 +2,4 @@
 @import 'tailwindcss';
 @import '../sakhi-vani/mobile-app/src/styles.css';
 
-@source '../sakhi-vani/mobile-app/src';
+@ '../sakhi-vani/mobile-app/src';
