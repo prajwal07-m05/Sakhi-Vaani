@@ -5,7 +5,7 @@ import type { ServiceMethod } from './service'
  * Path params (":id") are filled from the input object; remaining fields go in the
  * query string (GET) or JSON body (POST/PATCH).
  */
-export const ROUTES: Record<ServiceMethod, { method: 'GET' | 'POST' | 'PATCH'; path: string; public?: boolean }> = {
+ const ROUTES: Record<ServiceMethod, { method: 'GET' | 'POST' | 'PATCH'; path: string; public?: boolean }> = {
   login: { method: 'POST', path: '/api/auth/login', public: true },
   registerAsha: { method: 'POST', path: '/api/auth/register/asha', public: true },
   registerCitizen: { method: 'POST', path: '/api/auth/register/citizen', public: true },
