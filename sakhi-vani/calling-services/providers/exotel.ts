@@ -6,7 +6,7 @@
  * Exotel's exact applet/streaming contract must be confirmed against current Exotel documentation.
  */
 export interface ProviderReply {
-  say: string
+  say: 
   language: 'en' | 'hi' | 'kn'
   hangup: boolean
 }
