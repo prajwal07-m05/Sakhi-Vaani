@@ -1,7 +1,7 @@
 import type { BeneficiaryCategory, ExtractedField, ExtractionResult, MissingItem, RecordType } from '../../shared-types'
 import { RECORD_SCHEMAS, recordTypesFor } from '../../database/schemas/recordSchemas'
 import { addDays } from '../../core/util'
-import { parseNumber } from '../eligibility/engine'
+ { parseNumber } from '../eligibility/engine'
 
 /**
  * ASHA Documentation Agent (rule-based engine).
