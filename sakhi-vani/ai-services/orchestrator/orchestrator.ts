@@ -2,7 +2,7 @@ import type { Lang } from '../../shared-types'
 import { EMERGENCY_GUIDANCE } from '../../database/demo-data/knowledge'
 import { localise, retrieveArticles, articleById } from '../retrieval/evidenceRetrieval'
 
-export type Intent = 'emergency' | 'scheme' | 'asha_assistance' | 'appointment' | 'medicine' | 'maternal' | 'health_info' | 'greeting' | 'end' | 'unknown'
+ type Intent = 'emergency' | 'scheme' | 'asha_assistance' | 'appointment' | 'medicine' | 'maternal' | 'health_info' | 'greeting' | 'end' | 'unknown'
 
 const INTENT_WORDS: Array<[Intent, string[]]> = [
   ['emergency', ['bleeding', 'unconscious', 'fits', 'convulsion', 'not breathing', "can't breathe", 'cannot breathe', 'chest pain', 'severe pain', 'emergency', 'baby not moving', 'खून आ', 'बेहोश', 'दौरे', 'सांस नहीं', 'ರಕ್ತಸ್ರಾವ', 'ಪ್ರಜ್ಞೆ ತಪ್ಪ', 'ಸೆಳವು', 'ತುರ್ತು']],
